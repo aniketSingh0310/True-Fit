@@ -9,7 +9,7 @@ const Card: FC<Props> = ({ items }) => {
     <>
       <div
         id="CardMain"
-        className="glass  w-full max-w-sm space-y-5 mt-5 hover:bg-slate-800/70"
+        className="glass  w-full max-w-sm space-y-5 mt-4 hover:bg-slate-800/70"
       >
         <p className="text-[#A9FF1C] text-2xl font-bold text-center pt-3">
           {items.name}
